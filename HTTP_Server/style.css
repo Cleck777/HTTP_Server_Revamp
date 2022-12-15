@@ -1,0 +1,78 @@
+
+.logo{
+	float: right;
+	.padding-left: 25px;
+	align: right;
+	height: 200px;
+	
+}
+strong {
+	font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+p {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Style the container for the main content of the page */
+section#main {
+  width: 800px; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally on the page */
+  text-align: left; /* Center the text inside the container */
+  top: 100px;
+  left: 200px;
+  position: absolute;
+}
+
+/* Style the navigation bar */
+section#navbar {
+  width: 200px; /* Set the width of the navigation bar */
+  height: 100%; /* Set the height of the navigation bar to take up the full height of the screen */
+  position: fixed; /* Fix the position of the navigation bar so it doesn't scroll with the rest of the page */
+  left: 0; /* Position the navigation bar on the left side of the screen */
+  top: 0; /* Position the navigation bar at the top of the screen */
+  background-color: #333; /* Set the background color of the navigation bar */
+  color: white; /* Set the text color of the links inside the navigation bar */
+}
+
+/* Style the links inside the navigation bar */
+section#navbar a {
+  display: block; /* Make each link take up its own line */
+  padding: 10px; /* Add some padding to each link */
+  text-decoration: none; /* Remove the default underline from the links */
+  color: white; /* Set the text color of the links */
+}
+
+/* Style the links when they are hovered over */
+section#navbar a:hover {
+  background-color: #444; /* Change the background color of the link when it is hovered over */
+}
+
+/* Style the header */
+section#header {
+  text-align: center; /* Center the text inside
+
+
